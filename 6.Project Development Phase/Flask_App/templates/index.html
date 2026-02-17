@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strategic Product Placement Analysis</title>
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.hero-overlay {
+    background: rgba(0,0,0,0.7);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.dashboard-box {
+    margin-bottom: 60px;
+}
+
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">SALES ANALYTICS</a>
+    <div>
+      <a class="nav-link d-inline text-white" href="#home">Home</a>
+      <a class="nav-link d-inline text-white" href="#about">About</a>
+      <a class="nav-link d-inline text-white" href="#dashboard">Dashboard</a>
+      <a class="nav-link d-inline text-white" href="#story">Story</a>
+      <a class="nav-link d-inline text-white" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="hero-overlay">
+    <h1 class="display-4 fw-bold">Strategic Product Placement Analysis</h1>
+    <p class="lead">Interactive Business Intelligence using Tableau & Flask</p>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="container">
+  <div class="section-title">
+    <h2>About the Project</h2>
+    <p>This project evaluates product positioning, price comparison,
+       competitor analysis, and promotion effectiveness through
+       interactive Tableau dashboards.</p>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-4">
+      <i class="bi bi-graph-up display-5"></i>
+      <h5 class="mt-3">Sales Analysis</h5>
+      <p>Understanding product performance across positions.</p>
+    </div>
+    <div class="col-md-4">
+      <i class="bi bi-currency-dollar display-5"></i>
+      <h5 class="mt-3">Price Comparison</h5>
+      <p>Comparing product and competitor pricing strategies.</p>
+    </div>
+    <div class="col-md-4">
+      <i class="bi bi-bar-chart display-5"></i>
+      <h5 class="mt-3">Strategic Insights</h5>
+      <p>Visual storytelling through data dashboards.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD SECTION -->
+<section id="dashboard" class="bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Dashboards</h2>
+    </div>
+
+    <div class="dashboard-box">
+      <h4 class="text-center mb-4">Dashboard 1</h4>
+
+      <div class='tableauPlaceholder' id='viz1771064434181' style='position: relative'><noscript><a href='#'><img alt='product_positioning Analysis Dahboard-1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='product_positioning&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771064434181');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1620px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1620px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    </div>
+
+    <div class="dashboard-box">
+      <h4 class="text-center mb-4">Dashboard 2</h4>
+
+      <div class='tableauPlaceholder' id='viz1771064868781' style='position: relative'><noscript><a href='#'><img alt='product_positioning Analysis Dahboard-2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning_DB_2&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='product_positioning_DB_2&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning_DB_2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771064868781');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1550px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- STORY SECTION -->
+<section id="story">
+  <div class="container">
+    <div class="section-title">
+      <h2>Project Story</h2>
+    </div>
+
+    <div class='tableauPlaceholder' id='viz1771064965336' style='position: relative'><noscript><a href='#'><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning_DB_2&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='product_positioning_DB_2&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pr&#47;product_positioning_DB_2&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771064965336');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-box">
+      <input type="text" class="form-control mb-3" placeholder="Your Name">
+      <input type="email" class="form-control mb-3" placeholder="Your Email">
+      <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
+      <button class="btn btn-dark w-100">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Strategic Product Placement Analysis | Flask + Tableau Integration
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
